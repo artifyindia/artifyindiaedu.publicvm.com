@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8"> 
+<title>ArtifyIndia.com | Indian Art & Culture</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+body {
+    font-family: Poppins, sans-serif;
+    background-color:#6CA587;
+    margin: 0;
+    padding: 0;
+    font-weight:500;
+    overflow-x: hidden;
+}
+html{
+scroll-behavior:smooth;
+}
+header {
+    background: linear-gradient(#002F3D, #2E7D32);
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+    font-weight:bold;
+}
+
+header img {
+    width: 180px; 
+    height: 180px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+header h1 {
+    font-size: clamp(40px, 10vw, 60px);
+    margin: 10px 0 8px 0;
+    font-weight: bold;
+}
+
+header h2 {
+    font-size: clamp(20px, 4.5vw, 32px);
+    margin: 0;
+    font-family: "Book Antiqua", serif;
+    font-weight: normal;
+}
+
+
+.no-break {
+    white-space: nowrap;
+}
+
+
+
+nav {
+    font-family:"Poppins",serif;
+    background-color:white;
+    text-align: center;
+    padding: 10px;
+    font-weight:bold;
+    color:darkgreen;
+}
+
+nav a {
+    color:darkgreen;
+    margin: 0 12px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight:600;
+}
+nav a:hover {
+    background-color:white;
+    color:red;
+}
+section {
+    padding: 20px;
+}
+
+.card {
+    background-color:white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+    display:block;
+    margin:auto;
+    height: auto;
+    width:100%;
+    max-width: 60%;
+}
+footer {
+    background:#0E3532;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+p,i{
+    font-family:"Book Antiqua",sans-serif;
+    font-size:clamp(20px,7vw,30px);
+}
+a {
+    color:darkgreen;            
+    font-family: "Book Antiqua", serif;
+    font-size: clamp(20px, 7vw, 30px);
+    text-decoration: underline;
+    font-style:italic;     
+}
+a:hover {
+    color:red ;
+    text-decoration: none;
+}
+.btn {
+    display: inline-block;
+    background:linear-gradient(#002F3D, #2E7D32);
+    color: white;
+    padding:20px 40px;
+    font-size: 20px;
+    font-family: "Book Antiqua", serif;
+    border-radius: 8px;
+    text-decoration: none;
+    font-style: italic;
+    
+}
+
+.btn:hover {
+    background:linear-gradient(darkblue,darkcyan);
+    color:white;
+}
+.center-btn {
+    text-align: center;    
+}
+#topics ul li a {
+    font-size: clamp(16px, 5vw, 22px);
+    
+}
+@media (max-width: 600px) {
+
+    /* Reduce header padding */
+    header {
+        padding: 20px 10px;
+    }
+
+    /* Title resizing */
+    header h1 {
+        font-size: clamp(28px, 10vw, 45px);
+    }
+
+    header h2 {
+        font-size: clamp(16px, 5vw, 26px);
+    }
+
+    /* Cards softer shadow on mobile */
+    .card {
+        box-shadow: 0 0 6px rgba(0,0,0,0.15);
+    }
+
+    /* List items centered */
+    #topics ul {
+        padding-left: 10px;
+    }
+
+    #topics ul li {
+        margin-bottom: 10px;
+    }
+}
+.go-top {
+    text-align: center;
+    margin: 15px 0 25px 0;
+}
+
+.go-top a {
+    background: linear-gradient(#002F3D, #2E7D32);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: "Book Antiqua", serif;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.go-top a:hover {
+    background: linear-gradient(darkblue, darkcyan);
+    color: white;
+}
+
+
+
+</style>
+</head>
+
+<body id="top">
+
+<header>
+    
+    <img src="logo.jpg" alt="Logo">
+    
+    <h1 class="no-break">ArtifyIndia.com</h1>
+    <h2><i><b>Where Culture Breathes: The Artful Heart Of India</b></i></h2>
+</header>
+
+<nav>
+    <a href="#intro">Introduction</a> |
+    <a href="#indianculture">Speciality Of Indian Culture</a> |
+    <a href="#topics">Topics</a>
+</nav>
+
+<section>
+
+<!-- Introduction Card -->
+<div class="card" id="intro">
+    <span style="color:#264A63;"><h1 align="center"><i>Welcome To </span><span style="color:darkgreen;">ArtifyIndia.com!</h1></span></i>
+
+    <!-- FIX THIS PATH -->
+    <img src="indian_culture.jpg" alt="Indian Art & Culture">
+
+    <h2 style="color:darkgreen;"><i>Introduction</i></h2>
+
+    <p style="font-family:'Book Antiqua'"><i>
+    India’s art and culture are a living expression of who we are as a nation—colourful, diverse, and deeply rooted in tradition. From handcrafted treasures shaped by skilled artisans to the rich flavours of regional cuisines, from soulful music and classical dances to vibrant traditional paintings, every form of art tells a story about our history and our people. This project has been created to bring these stories closer to the younger generation and help them understand the beauty and importance of our cultural heritage.
+    </i></p>
+<h2><font color="#CC7722"><i>Aim Of Our Initiative</i></font></h2>
+	<p><i>To achieve this, the initiative works closely with schools across the country, organising cultural competitions, creative workshops, and art exhibitions that give students a chance to explore their talents and learn more about India’s traditions. The goal is not only to showcase our rich artistic heritage but also to inspire pride and a sense of connection among the youth. At its heart, this project hopes to help young Indians regain their lost right to truly know, appreciate, and celebrate the culture of their motherland. By engaging students in meaningful, creative experiences, it aims to build a generation that carries forward India’s timeless spirit with confidence, respect, and love.
+	</p></i><br>
+</div>
+<div class="go-top">
+    <a href="#top">↑ Go to Top</a>
+</div>
+<!-- Culture Card -->
+<div class="card" id="indianculture">
+    <h2 style="color:green;"><i>Why Indian Culture is Special</i></h2>
+
+    <p style="font-family:'Book Antiqua'"><i>
+       Indian culture and art represent one of the world’s oldest and most diverse civilizations, shaped by centuries of history, philosophy, and tradition. The richness of Indian culture lies in its ability to blend countless languages, beliefs, customs, and artistic styles into a harmonious way of life. From classical dance forms like Bharatanatyam and Kathak to intricate temple carvings, colorful textiles, folk music, and traditional crafts, every art form tells a story of creativity, spirituality, and human connection. Indian culture values respect, community, and a deep connection to nature, allowing people to celebrate both individuality and unity. Its artistic heritage not only preserves the wisdom of the past but also continues to grow and inspire the modern world, showing how tradition and innovation can come together beautifully across generations.
+    </i></p>
+</div><div class="go-top">
+    <a href="#top">↑ Go to Top</a>
+</div>
+
+<!-- Topics Card -->
+<div class="card" id="topics">
+    <h2><i><span style="color:#003153;">Integral Dimensions of Indian Artistic Tradition : Topics Covered</span></i></h2>
+
+    <ul>
+        <li><a href="Indian_Music.html">Indian Music</a></li>
+        <li><a href="Dance.html">Indian Cultural Dance</a></li>
+        <li><a href="rito.html">Indian Painting</a></li>
+        <li><a href="samanta.html">Textile, Food, And Poetry</a></li>
+    </ul>
+</div>
+
+<!-- Form link -->
+<div class="card">
+    <h2><i>Interested in competitions or exhibitions?</i></h2>
+    <div class="center-btn">
+   <a href="form.html" class="btn">Fill Form</a>
+</div>
+</div><div class="go-top">
+    <a href="#top">↑ Go to Top</a>
+</div>
+</section>
+
+<footer>
+    ArtifyIndia.com
+</footer>
+
+</body>
+</html>
